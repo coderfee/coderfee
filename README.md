@@ -1,3 +1,3 @@
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coderfe&show_icons=true&theme=vue)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=coderfee&show_icons=true&theme=vue)
 
 [coderfee's blog](https://coderfee.com)
