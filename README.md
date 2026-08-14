@@ -1,3 +1,11 @@
-![Chen's GitHub stats](https://github-readme-stats.vercel.app/api?username=coderfee&show_icons=true&theme=vue)
+<div align="center">
+  <a href="https://github.com/coderfee">
+    <img src="./profile/stats.svg" width="495" alt="Chen's GitHub statistics" />
+  </a>
 
-[X](https://x.com/coderfee), [Blog](https://coderfee.com)
+  <p>
+    <a href="https://x.com/coderfee">X</a>
+    ·
+    <a href="https://coderfee.com">Blog</a>
+  </p>
+</div>
