@@ -1,50 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="330" viewBox="0 0 780 330" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="250" viewBox="0 0 780 250" role="img" aria-labelledby="title desc">
   <title id="title">coderfee GitHub profile card</title>
-  <desc id="desc">Terminal-style GitHub profile statistics for coderfee.</desc>
+  <desc id="desc">Minimal terminal-style GitHub profile statistics for coderfee. The live values are updated by GitHub Actions.</desc>
   <defs>
-    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
-      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#39ff88" stroke-opacity="0.07" />
-    </pattern>
-    <linearGradient id="scan" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0" stop-color="#39ff88" stop-opacity="0" />
-      <stop offset="0.5" stop-color="#39ff88" stop-opacity="0.13" />
-      <stop offset="1" stop-color="#39ff88" stop-opacity="0" />
-    </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="2.5" result="blur" />
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M 26 0 L 0 0 0 26" fill="none" stroke="#8cffb0" stroke-opacity="0.045" /></pattern>
     <style>
       .body { fill: #d7ffe7; font: 14px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
       .muted { fill: #79a88a; font: 13px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-      .label { fill: #39ff88; font: 700 12px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; letter-spacing: 1.6px; }
-      .heading { fill: #ffffff; font: 700 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-      .value { fill: #ffffff; font: 700 15px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .label { fill: #8cffb0; font: 700 11px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; letter-spacing: 1.4px; }
+      .heading { fill: #ffffff; font: 700 22px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .value { fill: #ffffff; font: 700 24px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
       .bar-bg { fill: #153322; }
     </style>
   </defs>
-  <rect width="780" height="330" rx="12" fill="#07110d" stroke="#39ff88" stroke-width="1.5" />
-  <rect x="1" y="1" width="778" height="328" rx="11" fill="url(#grid)" />
-  <rect x="1" y="1" width="778" height="328" rx="11" fill="url(#scan)" opacity="0.35" />
-  <circle cx="25" cy="24" r="5" fill="#ff5f56" />
-  <circle cx="43" cy="24" r="5" fill="#ffbd2e" />
-  <circle cx="61" cy="24" r="5" fill="#27c93f" />
-  <text x="82" y="29" class="muted" >coderfee@github:~</text>
-  <text x="748" y="29" class="label" text-anchor="end" filter="url(#glow)">● ONLINE</text>
+  <rect width="780" height="250" rx="12" fill="#07110d" stroke="#39ff88" stroke-opacity="0.75" />
+  <rect x="1" y="1" width="778" height="248" rx="11" fill="url(#grid)" />
+  <circle cx="25" cy="24" r="5" fill="#ff5f56" /><circle cx="43" cy="24" r="5" fill="#ffbd2e" /><circle cx="61" cy="24" r="5" fill="#27c93f" />
+  <text x="82" y="29" class="muted">coderfee@github:~</text><text x="748" y="29" class="label" text-anchor="end">SYNCED</text>
   <line x1="24" y1="47" x2="756" y2="47" stroke="#234b31" />
-  <text x="28" y="77" class="body" >$ ./profile --verbose</text>
-  <text x="28" y="105" class="heading" filter="url(#glow)">PROFILE :: CODERFEE</text>
-  <text x="28" y="133" class="label" >[ SYSTEM METRICS ]</text>
-  <text x="28" y="164" class="muted" >public_repos</text><text x="180" y="164" class="value" text-anchor="end">32</text>
-  <text x="28" y="194" class="muted" >followers</text><text x="180" y="194" class="value" text-anchor="end">31</text>
-  <text x="28" y="224" class="muted" >following</text><text x="180" y="224" class="value" text-anchor="end">67</text>
-  <text x="28" y="254" class="muted" >total_stars</text><text x="180" y="254" class="value" text-anchor="end">55</text>
-  <text x="28" y="286" class="muted" >status</text><text x="180" y="286" class="value" text-anchor="end">building in public</text>
-  <line x1="230" y1="128" x2="230" y2="291" stroke="#234b31" />
-  <text x="258" y="133" class="label" >[ LANGUAGE MATRIX ]</text>
-  <text x="432" y="190" class="body" >JavaScript</text><text x="574" y="190" class="muted" text-anchor="end">65%</text><rect x="590" y="178" width="150" height="8" rx="4" class="bar-bg"/><rect x="590" y="178" width="98" height="8" rx="4" fill="#39ff88"/><text x="432" y="220" class="body" >TypeScript</text><text x="574" y="220" class="muted" text-anchor="end">24%</text><rect x="590" y="208" width="150" height="8" rx="4" class="bar-bg"/><rect x="590" y="208" width="36" height="8" rx="4" fill="#00d9ff"/><text x="432" y="250" class="body" >MDX</text><text x="574" y="250" class="muted" text-anchor="end">12%</text><rect x="590" y="238" width="150" height="8" rx="4" class="bar-bg"/><rect x="590" y="238" width="18" height="8" rx="4" fill="#ffcf5c"/>
-  <text x="258" y="286" class="muted" >last_scan  2026-08-14</text>
-  <line x1="24" y1="307" x2="756" y2="307" stroke="#234b31" />
-  <text x="28" y="322" class="body" filter="url(#glow)">root@github:~$ _</text>
-  <text x="748" y="322" class="muted" text-anchor="end">v1.0.0</text>
+  <text x="28" y="76" class="body">$ whoami</text><text x="28" y="104" class="heading">coderfee</text><text x="748" y="104" class="muted" text-anchor="end">sync 2026-08-14</text>
+  <line x1="24" y1="122" x2="756" y2="122" stroke="#234b31" />
+  <text x="28" y="146" class="label">REPOS</text><text x="28" y="177" class="value">32</text>
+  <text x="276" y="146" class="label">FOLLOWERS</text><text x="276" y="177" class="value">31</text>
+  <text x="524" y="146" class="label">STARS</text><text x="524" y="177" class="value">55</text>
+  <line x1="24" y1="200" x2="756" y2="200" stroke="#234b31" />
+  <text x="28" y="222" class="body">JavaScript</text><text x="228" y="222" class="muted" text-anchor="end">65%</text><rect x="28" y="226" width="200" height="8" rx="4" class="bar-bg" /><rect x="28" y="226" width="130" height="8" rx="4" fill="#8cffb0" />
+  <text x="272" y="222" class="body">TypeScript</text><text x="472" y="222" class="muted" text-anchor="end">24%</text><rect x="272" y="226" width="200" height="8" rx="4" class="bar-bg" /><rect x="272" y="226" width="48" height="8" rx="4" fill="#7ee7ff" />
+  <text x="516" y="222" class="body">MDX</text><text x="716" y="222" class="muted" text-anchor="end">12%</text><rect x="516" y="226" width="200" height="8" rx="4" class="bar-bg" /><rect x="516" y="226" width="24" height="8" rx="4" fill="#ffd166" />
 </svg>
