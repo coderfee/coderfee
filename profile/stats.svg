@@ -1,34 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="250" viewBox="0 0 780 250" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="280" viewBox="0 0 780 280" role="img" aria-labelledby="title desc">
   <title id="title">coderfee GitHub profile card</title>
-  <desc id="desc">Terminal-style GitHub profile statistics for coderfee.</desc>
+  <desc id="desc">Technical dashboard-style GitHub profile statistics for coderfee. The live values are updated by GitHub Actions.</desc>
   <defs>
-    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
-      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#8cffb0" stroke-opacity="0.045" />
-    </pattern>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M 26 0 L 0 0 0 26" fill="none" stroke="#62d9ff" stroke-opacity="0.05" /></pattern>
     <style>
-      .body { fill: #d7ffe7; font: 14px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-      .muted { fill: #79a88a; font: 13px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-      .label { fill: #8cffb0; font: 700 11px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; letter-spacing: 1.4px; }
-      .heading { fill: #ffffff; font: 700 22px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-      .value { fill: #ffffff; font: 700 24px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-      .bar-bg { fill: #153322; }
+      .body { fill: #eaf2ff; font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .muted { fill: #8ea3bd; font: 13px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .label { fill: #62d9ff; font: 700 11px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; letter-spacing: 1.4px; }
+      .heading { fill: #ffffff; font: 700 30px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .value { fill: #ffffff; font: 700 24px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .panel { fill: #101b2d; stroke: #24344d; }
     </style>
   </defs>
-  <rect width="780" height="250" rx="12" fill="#07110d" stroke="#39ff88" stroke-opacity="0.75" />
-  <rect x="1" y="1" width="778" height="248" rx="11" fill="url(#grid)" />
-  <circle cx="25" cy="24" r="5" fill="#ff5f56" />
-  <circle cx="43" cy="24" r="5" fill="#ffbd2e" />
-  <circle cx="61" cy="24" r="5" fill="#27c93f" />
-  <text x="82" y="29" class="muted" >coderfee@github:~</text>
-  <text x="748" y="29" class="label" text-anchor="end">SYNCED</text>
-  <line x1="24" y1="47" x2="756" y2="47" stroke="#234b31" />
-  <text x="28" y="76" class="body" >$ whoami</text>
-  <text x="28" y="104" class="heading" >coderfee</text>
-  <text x="748" y="104" class="muted" text-anchor="end">sync 2026-08-14</text>
-  <line x1="24" y1="122" x2="756" y2="122" stroke="#234b31" />
-  <text x="28" y="146" class="label" >REPOS</text><text x="28" y="177" class="value" >32</text>
-  <text x="276" y="146" class="label" >FOLLOWERS</text><text x="276" y="177" class="value" >31</text>
-  <text x="524" y="146" class="label" >STARS</text><text x="524" y="177" class="value" >55</text>
-  <line x1="24" y1="200" x2="756" y2="200" stroke="#234b31" />
-  <text x="28" y="222" class="body" >JavaScript</text><text x="228" y="222" class="muted" text-anchor="end">65%</text><rect x="28" y="226" width="200" height="8" rx="4" class="bar-bg"/><rect x="28" y="226" width="130" height="8" rx="4" fill="#8cffb0"/><text x="272" y="222" class="body" >TypeScript</text><text x="472" y="222" class="muted" text-anchor="end">24%</text><rect x="272" y="226" width="200" height="8" rx="4" class="bar-bg"/><rect x="272" y="226" width="48" height="8" rx="4" fill="#7ee7ff"/><text x="516" y="222" class="body" >MDX</text><text x="716" y="222" class="muted" text-anchor="end">12%</text><rect x="516" y="226" width="200" height="8" rx="4" class="bar-bg"/><rect x="516" y="226" width="24" height="8" rx="4" fill="#ffd166"/>
+  <rect width="780" height="280" rx="14" fill="#0b1220" stroke="#2b4261" />
+  <rect x="1" y="1" width="778" height="278" rx="13" fill="url(#grid)" />
+  <rect x="24" y="24" width="4" height="42" rx="2" fill="#62d9ff" />
+  <text x="42" y="35" class="label">GITHUB / PROFILE</text><text x="42" y="62" class="heading">coderfee</text>
+  <rect x="300" y="24" width="140" height="58" rx="8" class="panel" /><rect x="456" y="24" width="140" height="58" rx="8" class="panel" /><rect x="612" y="24" width="144" height="58" rx="8" class="panel" />
+  <text x="316" y="45" class="label">REPOS</text><text x="316" y="70" class="value">32</text>
+  <text x="472" y="45" class="label">FOLLOWERS</text><text x="472" y="70" class="value">31</text>
+  <text x="628" y="45" class="label">STARS</text><text x="628" y="70" class="value">55</text>
+  <line x1="24" y1="112" x2="756" y2="112" stroke="#24344d" />
+  <text x="32" y="138" class="label">LANGUAGE PROFILE</text><text x="748" y="138" class="muted" text-anchor="end">TOP 3 REPOSITORY LANGUAGES</text>
+  <rect x="32" y="194" width="716" height="14" rx="4" fill="#17243a" /><rect x="32" y="194" width="463" height="14" rx="4" fill="#62d9ff" /><rect x="497" y="194" width="169" height="14" rx="4" fill="#a99cff" /><rect x="668" y="194" width="80" height="14" rx="4" fill="#8ce99a" />
+  <circle cx="36" cy="236" r="4" fill="#62d9ff" /><text x="48" y="240" class="body">JavaScript</text><text x="232" y="240" class="muted" text-anchor="end">65%</text>
+  <circle cx="280" cy="236" r="4" fill="#a99cff" /><text x="292" y="240" class="body">TypeScript</text><text x="476" y="240" class="muted" text-anchor="end">24%</text>
+  <circle cx="524" cy="236" r="4" fill="#8ce99a" /><text x="536" y="240" class="body">MDX</text><text x="720" y="240" class="muted" text-anchor="end">11%</text>
 </svg>

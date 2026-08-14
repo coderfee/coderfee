@@ -1,1 +1,1 @@
-<img src="./profile/stats.svg" width="100%" alt="Chen's minimal terminal-style GitHub profile statistics" />
+<img src="./profile/stats.svg" width="100%" alt="Chen's technical GitHub profile dashboard" />
