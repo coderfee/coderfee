@@ -98,6 +98,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${cardWidth}" height
   <rect x="24" y="24" width="4" height="42" rx="2" fill="#62d9ff" />
   ${text(42, 35, "GITHUB / PROFILE", "label")}
   ${text(42, 62, username, "heading")}
+  ${text(748, 96, "go.coderfee.com / LINK HUB", "muted", 'text-anchor="end"')}
   <rect x="300" y="24" width="140" height="58" rx="8" class="panel" />
   <rect x="456" y="24" width="140" height="58" rx="8" class="panel" />
   <rect x="612" y="24" width="144" height="58" rx="8" class="panel" />

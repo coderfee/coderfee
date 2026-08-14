@@ -19,6 +19,7 @@
   <rect x="24" y="24" width="4" height="42" rx="2" fill="#62d9ff" />
   <text x="42" y="35" class="label" >GITHUB / PROFILE</text>
   <text x="42" y="62" class="heading" >coderfee</text>
+  <text x="748" y="96" class="muted" text-anchor="end">go.coderfee.com / LINK HUB</text>
   <rect x="300" y="24" width="140" height="58" rx="8" class="panel" />
   <rect x="456" y="24" width="140" height="58" rx="8" class="panel" />
   <rect x="612" y="24" width="144" height="58" rx="8" class="panel" />
