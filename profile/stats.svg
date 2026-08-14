@@ -1,8 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="780" height="250" viewBox="0 0 780 250" role="img" aria-labelledby="title desc">
   <title id="title">coderfee GitHub profile card</title>
-  <desc id="desc">Minimal terminal-style GitHub profile statistics for coderfee. The live values are updated by GitHub Actions.</desc>
+  <desc id="desc">Terminal-style GitHub profile statistics for coderfee.</desc>
   <defs>
-    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M 26 0 L 0 0 0 26" fill="none" stroke="#8cffb0" stroke-opacity="0.045" /></pattern>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#8cffb0" stroke-opacity="0.045" />
+    </pattern>
     <style>
       .body { fill: #d7ffe7; font: 14px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
       .muted { fill: #79a88a; font: 13px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
@@ -14,16 +16,19 @@
   </defs>
   <rect width="780" height="250" rx="12" fill="#07110d" stroke="#39ff88" stroke-opacity="0.75" />
   <rect x="1" y="1" width="778" height="248" rx="11" fill="url(#grid)" />
-  <circle cx="25" cy="24" r="5" fill="#ff5f56" /><circle cx="43" cy="24" r="5" fill="#ffbd2e" /><circle cx="61" cy="24" r="5" fill="#27c93f" />
-  <text x="82" y="29" class="muted">coderfee@github:~</text><text x="748" y="29" class="label" text-anchor="end">SYNCED</text>
+  <circle cx="25" cy="24" r="5" fill="#ff5f56" />
+  <circle cx="43" cy="24" r="5" fill="#ffbd2e" />
+  <circle cx="61" cy="24" r="5" fill="#27c93f" />
+  <text x="82" y="29" class="muted" >coderfee@github:~</text>
+  <text x="748" y="29" class="label" text-anchor="end">SYNCED</text>
   <line x1="24" y1="47" x2="756" y2="47" stroke="#234b31" />
-  <text x="28" y="76" class="body">$ whoami</text><text x="28" y="104" class="heading">coderfee</text><text x="748" y="104" class="muted" text-anchor="end">sync 2026-08-14</text>
+  <text x="28" y="76" class="body" >$ whoami</text>
+  <text x="28" y="104" class="heading" >coderfee</text>
+  <text x="748" y="104" class="muted" text-anchor="end">sync 2026-08-14</text>
   <line x1="24" y1="122" x2="756" y2="122" stroke="#234b31" />
-  <text x="28" y="146" class="label">REPOS</text><text x="28" y="177" class="value">32</text>
-  <text x="276" y="146" class="label">FOLLOWERS</text><text x="276" y="177" class="value">31</text>
-  <text x="524" y="146" class="label">STARS</text><text x="524" y="177" class="value">55</text>
+  <text x="28" y="146" class="label" >REPOS</text><text x="28" y="177" class="value" >32</text>
+  <text x="276" y="146" class="label" >FOLLOWERS</text><text x="276" y="177" class="value" >31</text>
+  <text x="524" y="146" class="label" >STARS</text><text x="524" y="177" class="value" >55</text>
   <line x1="24" y1="200" x2="756" y2="200" stroke="#234b31" />
-  <text x="28" y="222" class="body">JavaScript</text><text x="228" y="222" class="muted" text-anchor="end">65%</text><rect x="28" y="226" width="200" height="8" rx="4" class="bar-bg" /><rect x="28" y="226" width="130" height="8" rx="4" fill="#8cffb0" />
-  <text x="272" y="222" class="body">TypeScript</text><text x="472" y="222" class="muted" text-anchor="end">24%</text><rect x="272" y="226" width="200" height="8" rx="4" class="bar-bg" /><rect x="272" y="226" width="48" height="8" rx="4" fill="#7ee7ff" />
-  <text x="516" y="222" class="body">MDX</text><text x="716" y="222" class="muted" text-anchor="end">12%</text><rect x="516" y="226" width="200" height="8" rx="4" class="bar-bg" /><rect x="516" y="226" width="24" height="8" rx="4" fill="#ffd166" />
+  <text x="28" y="222" class="body" >JavaScript</text><text x="228" y="222" class="muted" text-anchor="end">65%</text><rect x="28" y="226" width="200" height="8" rx="4" class="bar-bg"/><rect x="28" y="226" width="130" height="8" rx="4" fill="#8cffb0"/><text x="272" y="222" class="body" >TypeScript</text><text x="472" y="222" class="muted" text-anchor="end">24%</text><rect x="272" y="226" width="200" height="8" rx="4" class="bar-bg"/><rect x="272" y="226" width="48" height="8" rx="4" fill="#7ee7ff"/><text x="516" y="222" class="body" >MDX</text><text x="716" y="222" class="muted" text-anchor="end">12%</text><rect x="516" y="226" width="200" height="8" rx="4" class="bar-bg"/><rect x="516" y="226" width="24" height="8" rx="4" fill="#ffd166"/>
 </svg>
