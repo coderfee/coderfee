@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/coderfee">
-    <img src="./profile/stats.svg" width="495" alt="Chen's GitHub statistics" />
+    <img src="./profile/stats.svg" width="780" alt="Chen's terminal-style GitHub profile statistics" />
   </a>
 
   <p>
