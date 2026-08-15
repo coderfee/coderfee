@@ -23,7 +23,7 @@
   <rect x="300" y="24" width="140" height="58" rx="8" class="panel" />
   <rect x="456" y="24" width="140" height="58" rx="8" class="panel" />
   <rect x="612" y="24" width="144" height="58" rx="8" class="panel" />
-  <text x="316" y="45" class="label" >REPOS</text><text x="316" y="70" class="value" >32</text>
+  <text x="316" y="45" class="label" >REPOS</text><text x="316" y="70" class="value" >30</text>
   <text x="472" y="45" class="label" >FOLLOWERS</text><text x="472" y="70" class="value" >31</text>
   <text x="628" y="45" class="label" >STARS</text><text x="628" y="70" class="value" >55</text>
   <line x1="24" y1="112" x2="756" y2="112" stroke="#24344d" />
